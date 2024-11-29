@@ -1,8 +1,11 @@
+import {useRoutes} from "react-router-dom";
+import routes from "../router/Router.jsx";
 
 const App = () => {
+    const routing = useRoutes(routes)
     return (
         <div>
-            <h1>Арсен Керезбеков</h1>
+            {routing}
         </div>
     );
 };
