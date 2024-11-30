@@ -2,7 +2,7 @@
 const ClientHome = () => {
     return (
         <div>
-            <h1>ClientHome</h1>
+            <h1>Клиент главный страница</h1>
         </div>
     );
 };

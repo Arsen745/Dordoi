@@ -1,0 +1,11 @@
+#button-header {
+    padding: 9px 14px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background: #ffffff40;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
