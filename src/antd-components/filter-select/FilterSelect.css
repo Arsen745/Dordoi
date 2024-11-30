@@ -1,0 +1,11 @@
+.ant-select-selector {
+    background: #ffffff10 !important;
+    color: white !important;
+    width: 100px!important;
+}
+.ant-select .ant-select-arrow {
+    color: white;
+}
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    color: white;
+}

@@ -1,3 +1,82 @@
-body {
-    margin: 0;
+header {
+    background: #4584FF;
 }
+header .content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0;
+}
+header .content-header .logo-header img {
+    width: 127px;
+}
+header .content-header .search-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+header .content-header .search-header .input input {
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    border-radius: 8px 0 0 8px;
+    background: #ffffff10;
+    width: 300px;
+    color: white;
+    font-size: 17px;
+}
+header .content-header .search-header .input input::placeholder {
+    color: #ffffff50;
+}
+header .content-header .search-header .input button {
+    padding: 9px 14px;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    color: white;
+    background: #ffffff40;
+    cursor: pointer;
+    font-size: 16px;
+}
+header .content-header .search-header .input button  i {
+    margin-left: 10px;
+    font-weight: 600;
+}
+header .right-content-header {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+header .right-content-header .nav-button-header {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+header .right-content-header .nav-button-header .button-favorite,
+header .right-content-header .nav-button-header .button-cart {
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+header .right-content-header .nav-button-header .button-favorite i,
+header .right-content-header .nav-button-header .button-cart i {
+    font-size: 25px;
+    font-weight: 800;
+}
+header .right-content-header .nav-button-header .button-favorite p,
+header .right-content-header .nav-button-header .button-cart p {
+    position: absolute;
+    top: -5px;
+    font-size: 11px;
+    background: white;
+    color: #4584FF;
+    padding: 2px;
+    border-radius: 50%;
+    font-weight: 700;
+    right: -15px;
+    border: 2px solid #4584FF;
+}
+header .right-content-header .buttons-to-admin {
+    display: flex;
+    gap: 20px;
+}
+

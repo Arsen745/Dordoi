@@ -1,7 +1,7 @@
 
 const ClientAbout = () => {
   return (
-    <div>ClientAbout</div>
+    <div>Клиент о нас</div>
   )
 }
 
