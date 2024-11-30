@@ -1,8 +1,10 @@
+import Baner from "../../component/client/Banner.jsx";
+import '../../../styles/client/Home.css'
 
 const ClientHome = () => {
     return (
-        <div>
-            <h1>Клиент главный страница</h1>
+        <div className='home-page'>
+            <Baner/>
         </div>
     );
 };
