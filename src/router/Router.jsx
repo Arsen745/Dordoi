@@ -5,6 +5,7 @@ import ClientAbout from "../resourse/pages/client/ClientAbout.jsx";
 import ClientProducts from "../resourse/pages/client/ClientProducts.jsx";
 import AdminHome from "../resourse/pages/admin/AdminHome.jsx";
 import About from "../resourse/pages/admin/About.jsx";
+import ClientInstructions from "../resourse/pages/client/ClientInstructions.jsx";
 
 const routes = [
     {
@@ -22,6 +23,10 @@ const routes = [
             {
                 path: '/products',
                 element: <ClientProducts/>
+            },
+            {
+                path: '/instructions',
+                element: <ClientInstructions/>
             }
         ]
     },
