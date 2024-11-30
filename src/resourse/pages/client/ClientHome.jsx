@@ -4,7 +4,7 @@ import Cards from "../../component/client/cards/Cards.jsx";
 
 const ClientHome = () => {
     return (
-        <div className='home-page'>
+        <div className='home-page container'>
             <div className="baner-home">
                 <Baner/>
             </div>

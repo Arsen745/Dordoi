@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 10px;
     transition: all 0.3s;
-    width: 280px;
+    width: 250px;
 }
 .card .top-content-card {
     position: relative;
@@ -12,7 +12,7 @@
     justify-content: center;
 }
 .card .top-content-card img {
-    width: 250px;
+    width: 200px;
 }
 .card .bottom-content-card {
     padding: 0 10px 10px 10px;
