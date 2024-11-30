@@ -1,9 +1,8 @@
-import React from 'react';
 
 const About = () => {
     return (
         <div>
-            <h1>About Admin</h1>
+            <h1>О админ</h1>
         </div>
     );
 };

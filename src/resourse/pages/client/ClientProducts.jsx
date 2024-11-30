@@ -1,8 +1,7 @@
-import React from 'react'
 
 const ClientProducts = () => {
   return (
-    <div>ClientProducts</div>
+    <div>Клиент товары</div>
   )
 }
 

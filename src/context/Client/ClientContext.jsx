@@ -1,6 +1,5 @@
-import React from 'react';
 
-const ClientHeader = () => {
+const ClientContext = () => {
     return (
         <div>
             <h1>ClientContext</h1>
@@ -8,4 +7,4 @@ const ClientHeader = () => {
     );
 };
 
-export default ClientHeader;
+export default ClientContext;
