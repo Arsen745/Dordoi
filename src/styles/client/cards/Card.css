@@ -1,0 +1,63 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.3s;
+    width: 280px;
+}
+.card .top-content-card {
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.card .top-content-card img {
+    width: 250px;
+}
+.card .bottom-content-card {
+    padding: 0 10px 10px 10px;
+}
+.card .bottom-content-card h2 {
+    border-bottom: 1px solid #C0C0C0;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    margin-bottom: 7px;
+}
+.card .bottom-content-card h2 span {
+    margin-left: 10px;
+    color: #4584FF;
+    cursor: pointer;
+}
+.card .bottom-content-card button {
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background: #4584FF;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(69, 132, 255, 0.4),
+    0 6px 20px rgba(69, 132, 255, 0.2);
+}
+.like {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.card .top-content-card .discount {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 7px 10px;
+    background: #4584FF;
+    border-radius: 0 15px 0 15px;
+}
+.card .top-content-card .discount  h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
