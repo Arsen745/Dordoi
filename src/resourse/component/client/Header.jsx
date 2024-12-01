@@ -35,8 +35,8 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="buttons-to-admin">
-                        <ButtonHeader text='Создать Магазин'/>
-                        <ButtonHeader text='Заказы'/>
+                        <ButtonHeader text='Создать Магазин' to='/login'/>
+                        <ButtonHeader text='Заказы' to='/about-admin'/>
                     </div>
                 </div>
             </div>

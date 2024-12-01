@@ -1,0 +1,61 @@
+.admin-login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-login .content {
+    border: 1px solid silver;
+    background-color: rgba(255, 255, 255, 0.0625);
+    padding: 13px 26px 40px 26px;
+    border-radius: 28px;
+    width: 320px;
+}
+.admin-login .content .title h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.admin-login .content .forms {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 13px;
+}
+.admin-login .content .reset-password a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.admin-login .content .buttons-login {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.admin-login .content .buttons-login button {
+    background-color: #4584FF;
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 11px 70px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.admin-login .content .buttons-login span {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+.admin-login .content .buttons-login span a {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
