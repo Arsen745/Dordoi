@@ -6,6 +6,8 @@ import ClientProducts from "../resourse/pages/client/ClientProducts.jsx";
 import AdminHome from "../resourse/pages/admin/AdminHome.jsx";
 import About from "../resourse/pages/admin/About.jsx";
 import ClientInstructions from "../resourse/pages/client/ClientInstructions.jsx";
+import ClientCart from "../resourse/pages/client/ClientCart.jsx";
+import NotFound from "../resourse/layout/client/NotFound.jsx";
 
 const routes = [
     {
@@ -27,6 +29,10 @@ const routes = [
             {
                 path: '/instructions',
                 element: <ClientInstructions/>
+            },
+            {
+                path: '/cart',
+                element: <ClientCart/>
             }
         ]
     },
@@ -43,6 +49,10 @@ const routes = [
                 element: <About/>
             }
         ]
+    },
+    {
+        path: '*',
+        element: <NotFound/>
     }
 ]
 export default routes;

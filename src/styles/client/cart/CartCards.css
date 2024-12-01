@@ -1,0 +1,131 @@
+.cart-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 50px;
+    border-bottom: 1px solid #C0C0C0;
+    padding-bottom: 20px;
+}
+.cart-cards .left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.cart-cards .left .image img {
+    width: 250px;
+}
+.cart-cards .left .data h1 {
+    font-size: 16px;
+    border-bottom: 1px solid #C0C0C0;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+.cart-cards .left .data h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #C0C0C0;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+.cart-cards .left .data h2 span {
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cart-cards .left .data p {
+    border-bottom: 1px solid #C0C0C0;
+    width: 250px;
+    padding-left: 5px;
+}
+.cart-cards .left .data p span {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.cart-cards .right {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.cart-cards .right .top .title {
+    margin-bottom: 10px;
+}
+.cart-cards .right .top .title h1 {
+    font-size: 20px;
+    text-align: start;
+     font-weight: 600;
+     margin-bottom: 0;
+ }
+.cart-cards .right .top .descriptions {
+}
+.cart-cards .right .top .descriptions .count p {
+    border-bottom: 1px solid #C0C0C0;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.cart-cards .right .top .descriptions .count p span {
+    color: #00000070;
+}
+.cart-cards .right .top .parent-price h1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-cards .right .top .parent-price h1 span {
+    font-size: 16px;
+}
+.cart-cards .right .bottom {
+}
+.cart-cards .right .bottom .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.cart-cards .right .bottom .buttons button {
+    padding: 5px 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+.cart-cards .right .bottom .delete-order {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.cart-cards .right .bottom .delete-order button {
+    padding: 5px 61px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.cart-cards .right .bottom .delete-order #order {
+    background: #4584FF;
+    transition: all 0.3s;
+}
+.cart-cards .right .bottom .delete-order #order:hover {
+    background: #3672D5;
+}
+.cart-cards .right .bottom .delete-order #delete {
+    background: red;
+    transition: all 0.3s;
+}
+.cart-cards .right .bottom .delete-order #delete:hover {
+    background: #cc0000;
+}
