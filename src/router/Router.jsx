@@ -8,6 +8,11 @@ import About from "../resourse/pages/admin/About.jsx";
 import ClientInstructions from "../resourse/pages/client/ClientInstructions.jsx";
 import ClientCart from "../resourse/pages/client/ClientCart.jsx";
 import NotFound from "../resourse/layout/client/NotFound.jsx";
+import AdminLogin from "../resourse/pages/admin/AdminLogin.jsx";
+import AdminRegister from "../resourse/pages/admin/AdminRegister.jsx";
+import AdminEmail from "../resourse/pages/admin/AdminEmail.jsx";
+import AdminOtp from "../resourse/pages/admin/AdminOtp.jsx";
+import CreateNewPassword from "../resourse/pages/admin/CreateNewPassword.jsx";
 
 const routes = [
     {
@@ -49,6 +54,26 @@ const routes = [
                 element: <About/>
             }
         ]
+    },
+    {
+        path: '/login',
+        element: <AdminLogin/>
+    },
+    {
+        path: '/register',
+        element: <AdminRegister/>
+    },
+    {
+        path: '/reset-password',
+        element: <AdminEmail/>
+    },
+    {
+        path: '/admin-otp',
+        element: <AdminOtp/>
+    },
+    {
+        path: '/create-new-password',
+        element: <CreateNewPassword/>
     },
     {
         path: '*',
