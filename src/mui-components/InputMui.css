@@ -1,0 +1,9 @@
+.css-9j73qj-MuiInputBase-input-MuiInput-input {
+    color: white !important;
+}
+.css-1ew92b2-MuiFormLabel-root-MuiInputLabel-root {
+    color: white !important;
+}
+.css-ed63ti-MuiInputBase-root-MuiInput-root::before {
+    border-bottom: 1px solid white !important;
+}

@@ -1,0 +1,51 @@
+.admin-otp {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    border: 1px solid silver;
+    background-color: rgba(255, 255, 255, 0.0625);
+    padding: 13px 26px 40px 26px;
+    border-radius: 28px;
+    width: 400px;
+}
+.admin-otp .content .title h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.admin-otp .content .forms {
+    margin-bottom: 20px;
+}
+.admin-otp .content .buttons .time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.admin-otp .content .buttons .time a {
+    color: white;
+    font-weight: 600;
+}
+.admin-otp .content .buttons .time h4 {
+    color: white;
+    font-weight: 400;
+}
+.admin-otp .content .buttons .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-otp .content .buttons .button button {
+    background-color: #4584FF;
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 11px 70px;
+    border-radius: 8px;
+    cursor: pointer;
+}
